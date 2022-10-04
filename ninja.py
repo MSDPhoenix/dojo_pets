@@ -49,7 +49,7 @@ class Pet:
         print(f"\thealth = {self.health}")
 
     def noise(self):
-        print(f"{self.sound}!\n")
+        print(f"\t{self.sound}! {self.sound}!\n")
 
 shelly = Pet("Shelly","turtle","biting fingers", "silence")
 
